@@ -63,4 +63,11 @@ public class Account {
         this.accountHolderName = accountHolderName;
         this.balance = balance;
     }
+
+    public Account() {
+        this.accountNo = "";
+        this.bankName = "";
+        this.accountHolderName = "";
+        this.balance = 0;
+    }
 }
